@@ -1,0 +1,16 @@
+[color]
+  ui = auto
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	ls = log --stat
+
+[core]
+	quotepath = false
+	editor = /usr/bin/vim
+[user]
+	name = Masayuki Maeda
+	email = mmae122@gmail.com
